@@ -1,0 +1,12 @@
+body{
+	background-image:url('https://www.gstatic.com/webp/gallery/3.jpg');
+}
+
+
+.jumbotron {
+    margin-bottom: 0px;
+    height: 350px;
+    color: darkkhaki;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    background: transparent;
+}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}WestAF GDP: returns the GDP of five West African countries for any given year{% endblock %}
+
+{% block page_content %}
+    <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Welcome to WestAF GDP!</h1>
+            <p>This is a web application that returns the <strong>Gross Domestic Product</strong> of five West AFrican States, as is available on the World bank api.</p>
+            <hr>
+          <h4>
+          {{ wtf.quick_form(form) }}
+          </h4>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}WestAF GDP : Dashboard{% endblock %}
+
+{% block page_content %}
+<div class="jumbotron">
+    <div class="container">
+        <div class="page-header">
+            <h1>Hello {% if name %}{{ name }}{% else %}Stranger{% endif %}!</hi>
+        <div>
+        <hr>
+        <h4>In order to know the Gross Domestic Product of the under-listed countries, please take a pick!</h4>
+        <div>
+            <a class="btn btn-danger btn-lg" href="/ben_data"> Benin Republic</a>
+            <a class="btn btn-primary btn-lg" href="/bfa_data"> Burkina Faso</a>
+            <a class="btn btn-info btn-lg" href="/civ_data"> Cote D'Ivoire</a>
+            <a class="btn btn-warning btn-lg" href="/ghana_data"> Ghana</a>
+            <a class="btn btn-success btn-lg" href="/nigeria_data"> Nigeria</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
